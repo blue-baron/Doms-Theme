@@ -1,0 +1,17 @@
+#footer {
+	padding: 2em 9999px 3em;
+	margin: 0 -9999px;
+	background: lighten($mountain-blue, 10%);
+	
+	h1, h2, h3, h4, h5, h6, p, small {
+		color: lighten($mountain-blue, 40%);
+		font-weight: 300;	
+	}
+	a {
+		color: lighten($mountain-blue, 40%);
+		text-decoration: underline;	
+	}
+	.right {
+		text-align: right;	
+	}
+}

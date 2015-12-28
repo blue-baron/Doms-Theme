@@ -1,0 +1,79 @@
+.widget {
+	text-align: center;
+	background: $storm-blue;	
+	padding: 1.4em;
+	margin: 0 0 2em 0;
+	
+	h1, h2, h3, h4, h5, h6, p, li, caption {
+		color: lighten($mountain-blue, 40%);
+	}
+	h2 {
+		font-size: rem-calc(21);	
+	}
+	h3 {
+		font-size: rem-calc(20);	
+	}
+	ul {
+		margin-bottom: .4em;	
+	}
+	li {
+		text-align: left;
+	}
+	a {
+		color: lighten($mountain-blue, 60%);
+		font-weight: 300;
+		
+		&:focus,
+		&:hover,
+		&:active {
+			color: lighten($mountain-blue, 80%);	
+		}
+		
+	}
+	table {
+		width: 100%;	
+		
+		th, td {
+			padding: 4px;	
+			overflow: hidden;
+			font-size: rem-calc(12);
+		}
+	}
+}
+
+#highlightBox {
+	text-align: center;
+	margin: 0;
+	
+	@media #{$large-up} { 
+		margin: -7.2em 0 0 0;
+	}
+	h2 {
+		font-size: rem-calc(21);	
+	}
+	h3 {
+		display: block;
+		text-align: center;
+		background: $scarlet;
+		padding: 20px 1.4em;
+		margin-bottom: 0;
+		color: $snow;
+		font-size: rem-calc(20);		
+	}
+	p, a {
+		font-size: rem-calc(14);	
+	}
+	.game {
+		background: $crimson;
+		padding: 1em;
+		margin: 0 0 2em 0;	
+		h1, h2, h3, h4, h5, h6, p, a {
+			color: $snow;
+	}
+	
+}
+	
+}
+
+
+

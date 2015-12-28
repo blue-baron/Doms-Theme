@@ -1,0 +1,35 @@
+.links-404 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	
+	ul {
+		margin: 0;	
+	}
+	li {
+		list-style-type: none;	
+		
+	}
+}
+#searchform {
+	#s {
+		background: transparentize($snow, 0.7);	
+		width: 60%;
+		float: left;
+		height: 40px;
+		margin: 0;
+		padding: 1em;
+		border: transparentize($storm-blue, 0.7) solid 1px;
+	}
+	#searchsubmit {
+		width: 40%;
+		float: right;
+		background: transparentize($storm-blue, 0.7);
+		border: none;
+		text-align: center;
+		height: 40px;
+		margin: 0;
+		padding: 10px;
+		overflow: hidden;
+		color: $snow;
+	}
+}

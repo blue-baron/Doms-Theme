@@ -1,0 +1,74 @@
+html,
+body {
+	overflow-x: hidden;	
+}
+.mainContent {
+	padding: 1em 0;
+	h1, h2, h3, h4, h5, h6, p {
+		color: lighten($mountain-blue, 40%);
+		font-weight: 300;	
+	}
+	
+	.post,
+	#respond {
+		background: $snow;
+	
+		@media #{$medium-up} { 
+			padding: 3em 4em;
+		}
+		h1, h2, h3, h4, h5, h6, p {
+			color: $mountain-blue;	
+		}
+		h1 {
+			font-weight: 600;	
+		}
+		h1 a, 
+		h2 a, 
+		h3 a, 
+		h4 a,
+		h5 a,
+		h6 a {
+			color: $mountain-blue;	
+			font-weight: 600;
+		}
+		p {
+			color: $mountain-blue;		
+		}
+		&:first-of-type {
+			margin-top: 2em;	
+		}
+	}
+	.post {
+		padding: 2em;
+		margin: 0 0 3em 0;
+	}
+	#respond {
+		padding: 2em;
+		background: transparentize($mountain-blue, 0.9);	
+	}
+	.meta {
+		p {
+			font-size: rem-calc(12);
+			font-style: italic;
+		}
+		.author {
+			font-weight: 600;	
+		}
+	}
+	.postmetadata {
+		background: transparentize($mountain-blue, 0.9);	
+		padding: 1em;
+		font-size: rem-calc(12);
+	}
+	.navigation {
+		a {
+			font-weight: 300;
+			&:link, &:visited {
+				color: lighten($scarlet, 10%);
+			}
+			&:focus, &:hover, &:active {
+				color: lighten($scarlet, 20%);
+			}
+		}
+	}
+}

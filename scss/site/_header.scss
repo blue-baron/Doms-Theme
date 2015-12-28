@@ -1,0 +1,102 @@
+header {
+	background: url(../images/domscode_header.jpg) no-repeat;
+	background-size: 500%;
+	height: 195px;
+	
+	@media #{$medium-up} { 
+		height: auto;
+		background-size: cover;
+		padding-bottom: 32%;
+	}
+	@media #{$large-up} { 
+		background-size: contain;
+	}
+	
+	.blogInfo {
+		position: absolute;
+		width: 100%;
+	
+		img {
+			width: 60%;
+			margin: 1em auto 0;
+			display: block;
+			
+			@media #{$medium-up} { 
+				margin: 2em auto 0;
+				width: 52%;
+				padding-left: 150px;
+			}
+			@media #{$large-up} { 
+				width: 28%;
+				margin: 5em auto 0;
+				padding-left: 0;
+			}
+		}
+		p {
+			width: 60%;
+			margin: 0 auto;
+			text-align: center;
+			font-size: rem-calc(14);
+			line-height: 1.2rem;
+			
+			@media #{$medium-up} { 
+				width: 52%;
+				padding-left: 150px;
+			}
+			@media #{$large-up} { 
+				width: 28%;
+				font-size: rem-calc(18);
+				padding-left: 0;
+				line-height: 1.5rem;
+			}
+		}
+	}
+	h1 {
+		display: none;	
+	}
+	.headerImage {
+		
+		img {
+			max-width: 500%;
+			display: block;
+			margin: 0 auto;
+			
+			@media #{$medium-up} { 
+				max-width: 100%;
+			}
+		}
+	}
+	a {
+		font-weight: 300;	
+	}
+	
+	
+	//STYLING FOR SMALL HEADER WITHOUT TAGLINE
+	&.header-small {
+		height: 140px;
+		
+		@media #{$medium-up} { 
+			padding-bottom: 16%;
+			height: 240px;
+		}
+		@media #{$large-up} { 
+			background-size: cover;
+			padding-bottom: 16%;
+		}
+		
+		img {
+			
+			@media #{$medium-up} { 
+				width: 45%;
+				padding-left: 40px;
+			}
+			@media #{$large-up} { 
+				width: 28%;
+				margin: 5em auto 0;
+				padding-left: 0;
+			}
+		}
+		
+	}
+}
+

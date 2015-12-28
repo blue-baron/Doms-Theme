@@ -1,0 +1,1 @@
+$(document).foundation(),function($){}(window.jQuery),$(document).ready(function(){$(".nav-title").hover(function(){$("#nav-wrapper .nav").slide("fast")},function(){$(this).removeClass("hover"),$("ul:first",this).css("visibility","hidden")}),$("iframe").wrap('<div class="flex-video"></div>')});
