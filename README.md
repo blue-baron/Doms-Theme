@@ -5,6 +5,13 @@ A custom wordpress theme developed for domscode.com. This theme is based on the 
 ##Demo
 [hilaryseselja.com/domscode/](http://hilaryseselja.com/domscode/)
 
+##Main Page Templates
+[Blog Page](https://github.com/blue-baron/Doms-Theme/blob/master/index.php)
+
+[Post Page](https://github.com/blue-baron/Doms-Theme/blob/master/single.php)
+
+[Information Pages](https://github.com/blue-baron/Doms-Theme/blob/master/page.php)
+
 ##CSS
 Custom Sass files: [scss/site](https://github.com/blue-baron/Doms-Theme/tree/master/scss/site)
 
